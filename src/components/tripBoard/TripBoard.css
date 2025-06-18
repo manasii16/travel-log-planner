@@ -1,0 +1,52 @@
+.trip-board {
+  padding: 24px;
+}
+
+.title {
+  font-size: 24px;
+  color: #354579;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 992px) {
+  .list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .trip-board {
+    padding: 16px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .trip-board {
+    padding: 12px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .list {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
