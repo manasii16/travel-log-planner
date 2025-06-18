@@ -1,0 +1,75 @@
+.trip-board {
+  padding: 32px;
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 24px;
+  color: #354579;
+}
+
+.trip-title {
+  text-align: center;
+  margin: 70px 0 24px;
+  color: #354579;
+}
+
+.trip-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+.no-trips-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.no-trips {
+  color: #777;
+  font-style: italic;
+  font-size: 22px;
+  text-align: center;
+}
+
+/* Responsive Layout */
+@media (max-width: 992px) {
+  .trip-board {
+    padding: 24px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .trip-list {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .trip-list {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .trip-board {
+    padding: 16px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .trip-list {
+    gap: 12px;
+  }
+}

@@ -1,0 +1,65 @@
+.trip-filter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 2rem;
+}
+
+.filter-box {
+  min-width: 210px;
+}
+
+.custom-select {
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-select label {
+  color: #354579;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 6px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.custom-select select {
+  color: #354579;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 16px;
+  transition: border-color 0.2s ease;
+  appearance: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.custom-select select:focus {
+  border-color: #354579;
+  outline: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.custom-select select option {
+  background-color: #ffffff;
+  color: #354579;
+  padding: 8px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.custom-select select option:checked {
+  background-color: #e6ecf5;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: #354579;
+}
+
+@media (max-width: 768px) {
+  .trip-filter {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .filter-box {
+    width: 80%;
+  }
+}
