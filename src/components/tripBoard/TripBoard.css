@@ -1,0 +1,19 @@
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.trip-board {
+  padding: 24px;
+}
+
+.title {
+  font-size: 24px;
+  color: #0a3d62;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
