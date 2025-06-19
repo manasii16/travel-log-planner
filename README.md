@@ -25,7 +25,7 @@ A responsive React application for logging past trips and planning upcoming ones
 ---
 
 **Project Setup**
-1. Clone the Repo - git clone https://github.com/manasii16/trip-log-planner.git
+1. Clone the Repo - git clone https://github.com/manasii16/travel-log-planner.git
 2. cd trip-log-planner
 3. Install Dependencies - npm install
 4. Run the Development Server - npm start / npm run dev
