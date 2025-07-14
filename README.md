@@ -6,12 +6,12 @@ A responsive React application for logging past trips and planning upcoming ones
 
 ## Features
 
-- 📆 Add and track trips with date, destination, cost, and description
-- 🗃️ Filter trips by year and month
-- 📊 Dashboard charts for trip count and cost overview
-- 🧾 Responsive trip cards with images
-- 🧭 Animated background icons for added visual flair
-- 🌐 Mobile-first responsive design
+- Add and track trips with date, destination, cost, and description
+- Filter trips by year and month
+- Dashboard charts for trip count and cost overview
+- Responsive trip cards with images
+- Animated background icons for added visual flair
+- Mobile-first responsive design
 
 ---
 
@@ -50,10 +50,7 @@ import { FaMapMarkerAlt } from 'react-icons/fa';
 
 ## Future Enhancements
 
-🧠 Save trips using localStorage or cloud DB like Firebase
-
-📅 Add calendar view for trip plans
-
-🔍 Add search bar for destinations
-
-🗺️ View all trips on a map
+- Save trips using localStorage or cloud DB like Firebase
+- Add calendar view for trip plans
+- Add search bar for destinations
+- View all trips on a map
