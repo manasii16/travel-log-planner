@@ -34,7 +34,7 @@ A responsive React application for logging past trips and planning upcoming ones
 
 ##  Dependencies
 
-Install these with `npm install` or `yarn`:
+Install these with `npm install`:
 
 npm install react react-dom react-icons
 
