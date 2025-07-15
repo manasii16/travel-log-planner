@@ -1,4 +1,4 @@
-# travel Form Application
+# Travel Form Application
 
 This application provides a simple form to capture details about an adventure or trip. It allows users to input information such as location name, date, description, price, and upload an image.
 
