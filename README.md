@@ -1,4 +1,4 @@
-# Trip Timeline Application
+# Travel Log and Planner Application
 
 This application displays a timeline of your past or planned trips, showing key details for each destination. It's designed to provide a clear and organized view of your travel experiences.
 
