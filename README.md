@@ -1,4 +1,5 @@
 **Trip Log & Planner**
+
 A full-featured React web application to log, plan, and visualize trips. It includes interactive charts, trip filtering, image uploads, and data visualization for trip budgets and frequency. Built with React, Material UI, and Recharts.
 
 **Features**
