@@ -6,12 +6,12 @@ This application provides a simple form to capture details about an adventure or
 
 The form is designed for easy data entry:
 
--   Location Name:Enter the name of the place where the adventure takes place.
--   Date: Select the date of the adventure using a user-friendly date picker.
--   Description: Provide more details about the adventure in a multi-line text area.
--   Price: Input the cost associated with the adventure.
--   Image Upload: Choose an image file from your computer to represent the adventure. The button text changes dynamically based on whether an image has been selected.
--   Submit: Once all details are filled, submit the form. Currently, the submitted data is logged to the browser's console and a confirmation alert is shown. After submission, the form fields are cleared.
+- Location Name
+- Date
+- Description
+- Price
+- Image Upload: Choose an image file from your computer to represent the trip. The button text changes dynamically based on whether an image has been selected.
+- Submit: Once all details are filled, submit the form. Currently, the submitted data is logged to the browser's console and a confirmation alert is shown. After submission, the form fields are cleared.
 
 ## What's Inside
 
